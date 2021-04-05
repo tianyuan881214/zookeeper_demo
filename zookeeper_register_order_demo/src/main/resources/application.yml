@@ -1,0 +1,18 @@
+# 应用名称
+spring:
+  application:
+    name: zookeeperorder
+  cloud:
+    zookeeper:
+      discovery:
+        register: true
+      session-timeout: 30000
+      connect-string: 127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183
+    loadbalancer:
+      ribbon:
+        enabled: false
+
+server:
+  port: 8081
+
+# zookeeper注册中心配置
