@@ -7,7 +7,11 @@
     <groupId>org.example</groupId>
     <artifactId>zookeeper_demo</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <modules>
+        <module>zookeeper_register_order_demo</module>
+        <module>zookeeper_lock_demo2</module>
+        <module>zookeeper_register_user_demo</module>
+    </modules>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
